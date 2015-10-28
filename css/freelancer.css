@@ -78,11 +78,26 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.intro-text .name {
+    color:#eee;
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
 header {
     text-align: center;
     color: #6152AC;
-    background: #564F7B;
-    background-image:url('../img/banner-bg.png');
+    background: #9999cc;
+    border-bottom:solid #233140 6px;
+    background-image:url('../img/banner-bg1.png');
     background-size:cover;
     background-position-y:-100px;
     background-repeat:no-repeat; 
@@ -98,19 +113,6 @@ header img {
     margin: 0 auto 20px;
 }
 
-.intro-text .name {
-    padding-top:130px;
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-.intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
 .thumbnail{
     width:150px;
     height:auto;
@@ -120,9 +122,11 @@ header img {
     header .container {
         padding-top: 200px;
         padding-bottom: 100px;
+        text-align:center;
     }
 
     header .intro-text .name {
+        color:#eee;
         font-size: 4.75em;
     }
 
@@ -180,6 +184,7 @@ header img {
 
 section {
     padding: 100px 0;
+    border-bottom:solid #233140 6px;
 }
 
 section h2 {
@@ -188,7 +193,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #eee;
     background: #564F7B;
 }
 
