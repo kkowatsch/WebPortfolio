@@ -13,6 +13,11 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 p {
     font-size: 20px;
 }
@@ -330,21 +335,45 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
-}
-
-footer h3 {
-    margin-bottom: 30px;
-}
-
-footer .footer-col {
-    margin-bottom: 50px;
+    color: #666;
 }
 
 footer .footer-below {
-    padding: 25px 0;
+
     background-color: #233140;
 }
+
+#copyright{
+    background-color: #0A0E13;
+    width: 100%;
+    margin:0 auto;
+    width:100%;
+    position:absolute;
+    left:0;
+    padding: 0.5em 0;
+}
+
+ul.social{
+    display: block;
+    margin: 2% 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.social li{
+    font-size: 3em;
+    display: inline;
+    padding: 0 2%;
+}
+
+ul.social li a{
+    color: #8D9CAC;
+}
+
+ul.social li.twitter a:hover{color:rgb(0,172,237);}
+ul.social li.github a:hover{color:rgb(0,0,0);}
+ul.social li.linkedin a:hover{color:rgb(0, 123, 181);}
+ul.social li.document a:hover{color:rgb( 255, 255, 255);}
 
 .btn-social {
     display: inline-block;
